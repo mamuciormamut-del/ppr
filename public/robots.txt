@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Allow: /blog
+Allow: /faq
+Allow: /blog/*
+
+Disallow: /admin
+Disallow: /api
+Disallow: /*.json$
+
+Sitemap: https://prywaciarz.com/sitemap.xml
+
+# Crawl-delay for aggressive crawlers
+User-agent: AhrefsBot
+Crawl-delay: 1
+
+User-agent: SemrushBot
+Crawl-delay: 1
